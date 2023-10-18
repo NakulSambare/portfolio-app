@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+#bg1 {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 50vw;
+  background-image: url("../assets/images/backgroundImage1.jpg"); /* Replace 'your-image.jpg' with the actual image file path */
+  position: relative;
+  /* width: 100vw; */
+  /* background-position: center; Center the background image */
+}
+
+.intro-section {
+  text-align: center;
+  /* padding: 0 5%; */
+  width: 100%;
+  position: relative;
+  bottom: 15%;
+  align-items: center;
+  justify-content: center;
+  height: 101vh;
+  overflow: hidden;
+  display: flex;
+  margin-bottom: 5%;
+}
+
+#name {
+  font-family: "Merriweather", serif;
+  color: white;
+  font-size: 50px;
+  position: relative;
+}
+
+#content {
+  font-size: 25px;
+  font-family: "Merriweather", serif;
+  color: white;
+  margin-top: 25px;
+  position: relative;
+}
+
+#bg2 {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 50vw;
+  /* background-image: url("../assets/images/backgroundImage3.jpg"); Replace 'your-image.jpg' with the actual image file path */
+  background-color: #1b1b1b;
+  position: relative;
+  /* width: 100vw; */
+  /* background-position: center; Center the background image */
+}
+.section-wrapper {
+  padding: 100px;
+}
+#profilePhoto {
+  display: inline-block;
+  width: 35%;
+  height: auto;
+  border-radius: 50%;
+  float: right;
+  /* max-width: 450px; */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+#aboutHeader {
+  font-size: 3em;
+  color: #f2f2f2;
+  font-family: "Young Serif", serif;
+}
+
+#aboutData {
+  color: #f2f2f2;
+  font-family: "Young Serif", serif;
+  font-style: italic;
+  line-height: 2;
+  margin-top: 25px;
+}
+
+.fade-in-element {
+  opacity: 0; /* Start with an invisible element */
+  animation: fadeIn 1.5s ease-in forwards; /* Apply the fade-in animation */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* At the beginning, the element is fully transparent */
+  }
+  100% {
+    opacity: 1; /* At the end, the element is fully opaque */
+  }
+}
+#bg3 {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 50vw;
+  background-image: url("../assets/images/backgroundImage5.jpg"); /* Replace 'your-image.jpg' with the actual image file path */
+  position: relative;
+  backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+}
+
+#aboutHeader2 {
+  font-size: 3em;
+  color: #f2f2f2;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.section-wrapper2 {
+  padding: 100px;
+}
+
+.introLine {
+  text-align: center;
+  margin-left: 39%;
+}
+
+.divider {
+  display: block;
+  margin: 30px 0;
+  width: 100px;
+  height: 2px;
+  background-color: #00b7c7;
+}
+.divider2 {
+  margin: 30px 0;
+  width: 300px;
+  height: 2px;
+  background-color: #00b7c7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gearStyle {
+  color: #f2f2f2;
+  font-size: 50px;
+}
+
+.headerStyle {
+  font-size: 3em;
+  color: #f2f2f2;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.headerStyle2 {
+  font-size: 2em;
+  color: #f2f2f2;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.skillHeadersStyle {
+  color: #f2f2f2;
+  font-family: "Roboto Condensed", sans-serif;
+  /* font-size: 25px;
+  margin-top: 25px;
+  text-align: center; */
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5vw;
+  margin-top: 25px;
+}
+
+.borderRightDown {
+  border-right: #00b7c7;
+  border-width: 2px;
+}
+.skillDataStyle {
+  color: #f2f2f2;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 15px;
+}
+
+.bulletStyle {
+  color: #f2f2f2;
+  font-family: "Roboto Condensed", sans-serif;
+  /* font-size: 15px;
+  border-color: #00b7c7;
+  border: 10px;
+  border-radius: 20px;
+  text-align: center; */
+  /* display: inline-block; */
+  /* border: 2px solid #00b7c7;
+  border-radius: 100%; */
+  /* border-radius: 100%; */
+  /* text-align: center;
+  margin: 10px 10px 10px 0;
+  padding: 0;
+  width: 100px;
+  height: 50px; */
+  /* line-height: 7; */
+  /* font-size: 20px; */
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+#bg4 {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 50vw;
+  background-image: url("../assets/images/backgroundImage6.jpg"); /* Replace 'your-image.jpg' with the actual image file path */
+  position: relative;
+  backdrop-filter: blur(50px);
+}
+
+.pStyle {
+  color: #f2f2f2;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+}
+
+#bg5 {
+  background-color: #1b1b1b;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  height: 3vw;
+}
+
+#downloadResume {
+  /* text-align: center;
+  padding: 3px; */
+  display: block;
+  width: 100%;
+  min-height: 100px;
+  overflow: hidden;
+  color: #f2f2f2;
+  position: relative;
+  background: #00909c;
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  overflow: hidden;
+  transition: background-color 0.5s linear;
+}
+#downloadResume .text {
+  margin: 40px auto;
+  opacity: 1;
+  visibility: visible;
+  transition: transform 0.4s cubic-bezier(0.425, -0.195, 0.005, 1.215),
+    opacity 0.13333s linear;
+  transform: scale(1);
+}
+
+#downloadResume .iconstyle {
+  margin: 25px auto;
+  font-size: 55px;
+}
+
+#bg6 {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 50vw;
+  background-image: url("../assets/images/backgroundImage7-modified.jpg"); /* Replace 'your-image.jpg' with the actual image file path */
+  position: relative;
+  backdrop-filter: blur(500px);
+}
+.contact-header-style {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  font-size: 2em;
+  color: #f2f2f2;
+}
+.about-section-wrapper {
+  padding: 50px;
+  text-align: center;
+}
+
+.about-section-wrapper .pStyle {
+  color: #f2f2f2;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+.cardStyle {
+  width: auto;
+  background: none;
+  text-align: left;
+  /* background: rgba(255, 255, 255, 0.6); */
+}
+
+.inputStyle {
+  background: none;
+  /* border-bottom: 2px solid #00b7c7;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px; */
+  border-bottom: 2px solid #00b7c7;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 0px;
+  color: #00b7c7;
+  box-shadow: none;
+}
+
+.socialMediaIconStyle {
+  font-size: 40px;
+  margin-top: 20px;
+  color: #f2f2f2;
+  margin-right: 20px;
+}
+
+#bg1 p {
+  font-size: 20px;
+  font-family: "Merriweather", serif;
+  color: white;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+a {
+  color: unset;
+}
+
+.top-left-container {
+  /* position: absolute; */
+  top: 0;
+  left: 100%;
+  list-style: none;
+  display: flex;
+}
+
+.loadingStyle {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #fff;
+  border-bottom-color: #ff3d00;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  position: fixed;
+  top: 50%; /* Vertically center the loader */
+  left: 50%; /* Horizontally center the loader */
+}
+/*
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 3px solid #fff;
+  border-right: 3px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#maxSize {
+  display: none;
+}
+@media (max-width: 1000px) {
+  #maxSize {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0); /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    color: #f2f2f2;
+    text-align: center;
+  }
+}
